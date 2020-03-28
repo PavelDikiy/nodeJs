@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f9b9fe-d645-4923-b587-d35a0a1c4547" name="Default Changelist" comment="" />
+    <list default="true" id="e5f9b9fe-d645-4923-b587-d35a0a1c4547" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +15,10 @@
     <session id="-1482467869">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -36,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myProject-chat/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -54,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject-chat/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -80,7 +83,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/myProject-chat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,126 +114,13 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/bl/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/bluebird/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/bson/browser_build/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/bson/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/connect-mongo/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/denque/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ejs-locals/node_modules/ejs/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ejs-locals/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ejs/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/errorhandler/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/express-session/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/express-session/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/express-session/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/express/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/invert-kv/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/kareem/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/lcid/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/memory-pager/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mongodb/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mongoose-legacy-pluralize/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mongoose/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mongoose/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mpath/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mquery/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/mquery/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/nconf/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/nconf/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/os-locale/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/random-bytes/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/regexp-clone/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/require_optional/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/require_optional/test/nestedTest/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/resolve-from/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/saslprep/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/secure-keys/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/sift/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/sliced/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/sparse-bitfield/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/uid-safe/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/wrap-ansi/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/y18n/package.json" />
-      <path value="$PROJECT_DIR$/myProject-chat/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/myProject-chat/package.json" />
       <path value="$PROJECT_DIR$/myProject-chat/public/vendor/bower_components/bootstrap/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="423" />
-    <option name="y" value="85" />
+    <option name="y" value="80" />
     <option name="width" value="1464" />
     <option name="height" value="943" />
   </component>
@@ -240,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +157,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -287,6 +177,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <module name="nodeJsLearn" />
+      <setting name="path" value="$PROJECT_DIR$/myProject-chat/app.js" />
+      <setting name="shellParams" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mongo.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -299,18 +202,18 @@
       <updated>1574940748685</updated>
       <workItem from="1574940749849" duration="3879000" />
       <workItem from="1575269903242" duration="5247000" />
-      <workItem from="1585421148377" duration="1130000" />
+      <workItem from="1585421148377" duration="1329000" />
+      <workItem from="1585422482158" duration="190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10256000" />
+    <option name="totallyTimeSpent" value="10645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="85" width="1464" height="943" extended-state="0" />
-    <editor active="true" />
+    <frame x="423" y="80" width="1464" height="943" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25316456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25316456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,13 +227,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32902467" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Mongo Explorer" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,13 +250,6 @@
     <entry file="file://$PROJECT_DIR$/db/index.js" />
     <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$PROJECT_DIR$/logger.js" />
-    <entry file="file://$PROJECT_DIR$/myProject-chat/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -365,6 +261,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject-chat/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
