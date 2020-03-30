@@ -7,6 +7,7 @@ const expressSession = require('express-session');
 const logger = require('morgan');
 const mongoose = require( 'mongoose' );
 const MongoStore = require('connect-mongo')(expressSession);
+const bodyParser = require('body-parser');
 //const HttpError = require('./error').HttpError;
 //const errorhandler = require('errorhandler')();
 
@@ -20,7 +21,12 @@ app.engine('ejs', require('ejs-locals'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use(logger('dev'));
+if (app.get('env') === 'development') {
+    app.use(logger('dev'));
+} else {
+    app.use(logger('default'));
+}
+app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -33,14 +39,22 @@ app.use(expressSession( {
     store: new MongoStore({mongooseConnection: mongoose.connection})
 }));
 
-app.use(function ( req, res, next ) {
+/*app.use(function(req, res, next) {
+    res.locals.user = req.session.user;
+    console.log("es.locals.user----", res.locals.user);
+    next();
+});*/
+
+app.use(require('./middleware/loadUser'));
+
+/*app.use(function ( req, res, next ) {
     if (req.session.views) {
         req.session.views++
     } else {
         req.session.views = 1
     }
     res.send("Visits " + req.session.views );
-});
+});*/
 
 app.use(express.static(path.join(__dirname, 'public')));
 

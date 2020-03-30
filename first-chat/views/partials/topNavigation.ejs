@@ -1,0 +1,25 @@
+<nav class="navbar navbar-default" role="navigation">
+    <ul class="nav navbar-nav">
+        <li><a href="/">Главная</a></li>
+        <% if (user) { %>
+            <li><a href="/chat">Чат</a></li>
+        <% } %>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <% if (user) { %>
+            <li><a href="" id="clicklogout">
+                    <form method=POST id="logout" action=/logout>Выйти</form>
+                </a></li>
+        <% } else { %>
+            <li><a href="/login">Войти</a></li>
+        <% } %>
+    </ul>
+</nav>
+
+<script>
+    $( "#clicklogout" ).on( 'click', function (event) {
+        event.preventDefault();
+        const forms = $( '#logout' );
+        forms.submit();
+    } )
+</script>
