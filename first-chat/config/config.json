@@ -9,7 +9,7 @@
     }
   },
   "session": {
-    "secret": "KillerISJim",
+    "secret": "KillerIsJim",
     "key": "sid",
     "cookie": {
       "path": "/",

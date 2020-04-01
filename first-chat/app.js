@@ -5,9 +5,11 @@ const config = require('./config');
 const cookieParser = require('cookie-parser');
 const expressSession = require('express-session');
 const logger = require('morgan');
-const mongoose = require( 'mongoose' );
-const MongoStore = require('connect-mongo')(expressSession);
+//const mongoose = require( 'mongoose' );
+//const MongoStore = require('connect-mongo')(expressSession);
 const bodyParser = require('body-parser');
+const sessionStore = require('./libs/sessionStore');
+
 //const HttpError = require('./error').HttpError;
 //const errorhandler = require('errorhandler')();
 
@@ -15,6 +17,10 @@ const indexRouter = require('./routes/index');
 //const usersRouter = require('./routes/users');
 
 const app = express();
+
+const http = require('http').createServer(app);
+//const io = require('socket.io').listen(http);
+
 
 // view engine setup
 app.engine('ejs', require('ejs-locals'));
@@ -36,7 +42,7 @@ app.use(expressSession( {
     cookie: config.get( 'session:cookie' ),
     resave: true,
     saveUninitialized: true,
-    store: new MongoStore({mongooseConnection: mongoose.connection})
+    store: sessionStore//new MongoStore({mongooseConnection: mongoose.connection})
 }));
 
 /*app.use(function(req, res, next) {
@@ -97,4 +103,11 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+
+
+const io = require('./socket')(http);
+
+app.set('io',io);
+http.listen(3000);
 module.exports = app;
