@@ -1,0 +1,33 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            {% for item in data %}
+                <div class="mdc-layout-grid__cell">
+                    <div class="mdc-card demo-card">
+                        <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                            <div class="mdc-card__media mdc-card__media--16-9 demo-card__media"
+                                 style="background-image: url({{ item.imgUrl }})">
+                            </div>
+                            <div class="mdc-card__actions">
+                                <h2 class="demo-card__title mdc-typography mdc-typography--headline6">{{ item.title }}</h2>
+                            </div>
+                            <div class="dmdc-card__actions mdc-typography mdc-typography--body2">
+                                <ul>{{ item.options }}</ul>
+                            </div>
+                        </div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <a class="mdc-button mdc-card__action mdc-card__action--button" href="{{ item.link }}"><span
+                                            class="mdc-button__ripple"></span> Read
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
